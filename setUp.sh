@@ -1,4 +1,5 @@
 #!/bin/bash
+echo -e "\033[35m"
 read -p "do you want to install mongodb?[Y/N]:" i
 if [ "$i" == "y" ] || [ "$i" == "Y" ] 
 then
