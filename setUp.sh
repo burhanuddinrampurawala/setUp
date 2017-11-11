@@ -24,7 +24,7 @@ read -p "do you want to install nodejs version 8?[Y/N]:" i
 if [ "$i" == "y" ] || [ "$i" == "Y" ] 
 then
 	echo -e "\033[34m"
-	curl -sL https://deb.nodesource.com/setup_$v | sudo -E bash -
+	curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 	sudo apt-get install -y nodejs
 fi
 echo -e "\033[35m"
